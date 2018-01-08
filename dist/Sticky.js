@@ -403,11 +403,6 @@ var Sticky = (function (_React$PureComponent) {
             }
         }
     }, {
-        key: 'shouldComponentUpdate',
-        value: function shouldComponentUpdate(nextProps, nextState) {
-            return !this.props.shouldFreeze();
-        }
-    }, {
         key: 'render',
         value: function render() {
             var _classNames;
